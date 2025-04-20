@@ -1,0 +1,72 @@
+2025-04-20T14:21:04.175+0000 I CONTROL  [initandlisten] MongoDB starting : pid=21953 port=27017 dbpath=/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend 64-bit host=codespaces-ff362a
+2025-04-20T14:21:04.175+0000 I CONTROL  [initandlisten] db version v3.6.8
+2025-04-20T14:21:04.175+0000 I CONTROL  [initandlisten] git version: 8e540c0b6db93ce994cc548f000900bdc740f80a
+2025-04-20T14:21:04.175+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.1f  31 Mar 2020
+2025-04-20T14:21:04.175+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2025-04-20T14:21:04.175+0000 I CONTROL  [initandlisten] modules: none
+2025-04-20T14:21:04.175+0000 I CONTROL  [initandlisten] build environment:
+2025-04-20T14:21:04.175+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2025-04-20T14:21:04.175+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2025-04-20T14:21:04.175+0000 I CONTROL  [initandlisten] options: { processManagement: { fork: true }, storage: { dbPath: "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend" }, systemLog: { destination: "file", path: "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/mongodb.log" } }
+2025-04-20T14:21:04.175+0000 I STORAGE  [initandlisten] 
+2025-04-20T14:21:04.175+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+2025-04-20T14:21:04.175+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+2025-04-20T14:21:04.175+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7483M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),cache_cursors=false,compatibility=(release="3.0",require_max="3.0"),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2025-04-20T14:21:04.380+0000 I STORAGE  [initandlisten] WiredTiger message [1745158864:380806][21953:0x7e3fe7befac0], txn-recover: Set global recovery timestamp: 0
+2025-04-20T14:21:04.396+0000 I CONTROL  [initandlisten] 
+2025-04-20T14:21:04.396+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2025-04-20T14:21:04.396+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2025-04-20T14:21:04.396+0000 I CONTROL  [initandlisten] 
+2025-04-20T14:21:04.396+0000 I CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2025-04-20T14:21:04.396+0000 I CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2025-04-20T14:21:04.396+0000 I CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2025-04-20T14:21:04.396+0000 I CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2025-04-20T14:21:04.396+0000 I CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2025-04-20T14:21:04.396+0000 I CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2025-04-20T14:21:04.396+0000 I CONTROL  [initandlisten] 
+2025-04-20T14:21:04.396+0000 I CONTROL  [initandlisten] 
+2025-04-20T14:21:04.396+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+2025-04-20T14:21:04.396+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2025-04-20T14:21:04.396+0000 I CONTROL  [initandlisten] 
+2025-04-20T14:21:04.396+0000 I STORAGE  [initandlisten] createCollection: admin.system.version with provided UUID: 4e0970fe-f575-49d5-9402-923e5f201d6a
+2025-04-20T14:21:04.403+0000 I COMMAND  [initandlisten] setting featureCompatibilityVersion to 3.6
+2025-04-20T14:21:04.406+0000 I STORAGE  [initandlisten] createCollection: local.startup_log with generated UUID: adb0a701-26aa-4034-9513-3c7aaf01fb87
+2025-04-20T14:21:04.413+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/diagnostic.data'
+2025-04-20T14:21:04.413+0000 I STORAGE  [LogicalSessionCacheRefresh] createCollection: config.system.sessions with generated UUID: 00cacb02-c326-4fdd-b789-d705c3f90ea3
+2025-04-20T14:21:04.413+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2025-04-20T14:21:04.426+0000 I INDEX    [LogicalSessionCacheRefresh] build index on: config.system.sessions properties: { v: 2, key: { lastUse: 1 }, name: "lsidTTLIndex", ns: "config.system.sessions", expireAfterSeconds: 1800 }
+2025-04-20T14:21:04.426+0000 I INDEX    [LogicalSessionCacheRefresh] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2025-04-20T14:21:04.427+0000 I INDEX    [LogicalSessionCacheRefresh] build index done.  scanned 0 total records. 0 secs
+2025-04-20T15:34:27.727+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:49566 #1 (1 connection now open)
+2025-04-20T15:34:27.727+0000 I NETWORK  [conn1] received client metadata from 127.0.0.1:49566 conn1: { driver: { name: "PyMongo|c", version: "4.12.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0", env: { container: { runtime: "docker" } } }
+2025-04-20T15:34:28.245+0000 I NETWORK  [conn1] end connection 127.0.0.1:49566 (0 connections now open)
+2025-04-20T15:36:44.175+0000 E STORAGE  [thread2] WiredTiger error (2) [1745163404:175956][21953:0x7e3fe5200700], log-server: /workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/journal: directory-list: opendir: No such file or directory
+2025-04-20T15:36:44.176+0000 E STORAGE  [thread2] WiredTiger error (2) [1745163404:176050][21953:0x7e3fe5200700], log-server: log pre-alloc server error: No such file or directory
+2025-04-20T15:36:44.176+0000 E STORAGE  [thread2] WiredTiger error (2) [1745163404:176069][21953:0x7e3fe5200700], log-server: log server error: No such file or directory
+2025-04-20T15:36:44.176+0000 E STORAGE  [thread2] WiredTiger error (-31804) [1745163404:176084][21953:0x7e3fe5200700], log-server: the process must exit and restart: WT_PANIC: WiredTiger library panic
+2025-04-20T15:36:44.176+0000 F -        [thread2] Fatal Assertion 28558 at src/mongo/db/storage/wiredtiger/wiredtiger_util.cpp 366
+2025-04-20T15:36:44.176+0000 F -        [thread2] 
+
+***aborting after fassert() failure
+
+
+2025-04-20T15:36:44.180+0000 F -        [thread2] Got signal: 6 (Aborted).
+
+ 0x5e5cdfba85fe 0x5e5cdfba7eef 0x5e5cdfba7f8c 0x7e3fe7eb5420 0x7e3fe7cf200b 0x7e3fe7cd1859 0x5e5cde313fdd 0x5e5cde0bbace 0x5e5cde450429 0x5e5cde0c60a8 0x5e5cde0c6408 0x5e5cde0cbcb1 0x7e3fe7ea9609 0x7e3fe7dce353
+----- BEGIN BACKTRACE -----
+{"backtrace":[{"b":"5E5CDD89D000","o":"230B5FE","s":"_ZN5mongo15printStackTraceERSo"},{"b":"5E5CDD89D000","o":"230AEEF"},{"b":"5E5CDD89D000","o":"230AF8C"},{"b":"7E3FE7EA1000","o":"14420"},{"b":"7E3FE7CAF000","o":"4300B","s":"gsignal"},{"b":"7E3FE7CAF000","o":"22859","s":"abort"},{"b":"5E5CDD89D000","o":"A76FDD","s":"_ZN5mongo32fassertFailedNoTraceWithLocationEiPKcj"},{"b":"5E5CDD89D000","o":"81EACE"},{"b":"5E5CDD89D000","o":"BB3429"},{"b":"5E5CDD89D000","o":"8290A8","s":"__wt_err"},{"b":"5E5CDD89D000","o":"829408","s":"__wt_panic"},{"b":"5E5CDD89D000","o":"82ECB1"},{"b":"7E3FE7EA1000","o":"8609"},{"b":"7E3FE7CAF000","o":"11F353","s":"clone"}],"processInfo":{ "mongodbVersion" : "3.6.8", "gitVersion" : "8e540c0b6db93ce994cc548f000900bdc740f80a", "compiledModules" : [], "uname" : { "sysname" : "Linux", "release" : "6.8.0-1021-azure", "version" : "#25~22.04.1-Ubuntu SMP Thu Jan 16 21:37:09 UTC 2025", "machine" : "x86_64" }, "somap" : [ { "b" : "5E5CDD89D000", "elfType" : 3, "buildId" : "28879BCB86C4B9AF7CEC8E6482F331A095E338D0" }, { "b" : "7FFC397D1000", "path" : "linux-vdso.so.1", "elfType" : 3, "buildId" : "9B1C6B7DB83DE838011580047BA01616652C37A1" }, { "b" : "7E3FE88D1000", "path" : "/lib/x86_64-linux-gnu/libstemmer.so.0d", "elfType" : 3, "buildId" : "F129B7D409F6F63A822673139BE40F369F3E4B13" }, { "b" : "7E3FE88B5000", "path" : "/lib/x86_64-linux-gnu/libz.so.1", "elfType" : 3, "buildId" : "101D8983A254F1B26637242E10B80ECAE42EFF2D" }, { "b" : "7E3FE88AA000", "path" : "/lib/x86_64-linux-gnu/libsnappy.so.1", "elfType" : 3, "buildId" : "74CAFD320059B4D17CF89FD6379A5105FF55840F" }, { "b" : "7E3FE884F000", "path" : "/lib/x86_64-linux-gnu/libyaml-cpp.so.0.6", "elfType" : 3, "buildId" : "B9EC1711A8AAD2FE980B735F13E186BEFE9FA4DB" }, { "b" : "7E3FE8844000", "path" : "/lib/x86_64-linux-gnu/libpcrecpp.so.0", "elfType" : 3, "buildId" : "9199246C7429052FBE1F97DA6FE0B0CFBED2DE3F" }, { "b" : "7E3FE87B5000", "path" : "/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0", "elfType" : 3, "buildId" : "CB2EB21D65AF49F187F384ABED5D46D66E998195" }, { "b" : "7E3FE8795000", "path" : "/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0", "elfType" : 3, "buildId" : "956195B5ABA44A072A6242BF2399D9EB0B6163E7" }, { "b" : "7E3FE859E000", "path" : "/lib/x86_64-linux-gnu/libtcmalloc.so.4", "elfType" : 3, "buildId" : "BC036BA2C0C0B4976A51184F1E9F712CCB8611C7" }, { "b" : "7E3FE8582000", "path" : "/lib/x86_64-linux-gnu/libresolv.so.2", "elfType" : 3, "buildId" : "14F8C217114FD0E6573C99704DDAF42E93E51B49" }, { "b" : "7E3FE82AB000", "path" : "/lib/x86_64-linux-gnu/libcrypto.so.1.1", "elfType" : 3, "buildId" : "6CA0E5126699C71D4F42C7A41D61BD4B3D214A6D" }, { "b" : "7E3FE8218000", "path" : "/lib/x86_64-linux-gnu/libssl.so.1.1", "elfType" : 3, "buildId" : "AD5124AE9AE4CF0FAC48A89F0458C56EDE195C11" }, { "b" : "7E3FE8212000", "path" : "/lib/x86_64-linux-gnu/libdl.so.2", "elfType" : 3, "buildId" : "8583C9275B218EC2EB39CCF93A8FFB0A516DACA0" }, { "b" : "7E3FE802E000", "path" : "/lib/x86_64-linux-gnu/libstdc++.so.6", "elfType" : 3, "buildId" : "FCD5414020056F1D95855868E00F3A7D479630FD" }, { "b" : "7E3FE7EDF000", "path" : "/lib/x86_64-linux-gnu/libm.so.6", "elfType" : 3, "buildId" : "1EA2E511D08B53E6C8E09FD4A9CD0CD54718B189" }, { "b" : "7E3FE7EC4000", "path" : "/lib/x86_64-linux-gnu/libgcc_s.so.1", "elfType" : 3, "buildId" : "8296A8EF14673927602C39FF755ABFE97732DC6F" }, { "b" : "7E3FE7EA1000", "path" : "/lib/x86_64-linux-gnu/libpthread.so.0", "elfType" : 3, "buildId" : "5CFB896DD40F90AA8C6C8BB856004D1F5CFE293C" }, { "b" : "7E3FE7CAF000", "path" : "/lib/x86_64-linux-gnu/libc.so.6", "elfType" : 3, "buildId" : "0323AB4806BEE6F846D9AD4BCCFC29AFDCA49A58" }, { "b" : "7E3FE7C3C000", "path" : "/lib/x86_64-linux-gnu/libpcre.so.3", "elfType" : 3, "buildId" : "CEF782225A118AF34A28083235A6DA2AA59B7E82" }, { "b" : "7E3FE7C1D000", "path" : "/lib/x86_64-linux-gnu/libunwind.so.8", "elfType" : 3, "buildId" : "08DCE9B46ABF8D1E0E1DEB17E94F8EA84FC449B9" }, { "b" : "7E3FE8930000", "path" : "/lib64/ld-linux-x86-64.so.2", "elfType" : 3, "buildId" : "CB904567E1B2A460B6FC20817776AD590D265686" }, { "b" : "7E3FE7BF4000", "path" : "/lib/x86_64-linux-gnu/liblzma.so.5", "elfType" : 3, "buildId" : "0E13B0F27B3BC79A2828C11199CE4336A348AF37" } ] }}
+ mongod(_ZN5mongo15printStackTraceERSo+0x3E) [0x5e5cdfba85fe]
+ mongod(+0x230AEEF) [0x5e5cdfba7eef]
+ mongod(+0x230AF8C) [0x5e5cdfba7f8c]
+ libpthread.so.0(+0x14420) [0x7e3fe7eb5420]
+ libc.so.6(gsignal+0xCB) [0x7e3fe7cf200b]
+ libc.so.6(abort+0x12B) [0x7e3fe7cd1859]
+ mongod(_ZN5mongo32fassertFailedNoTraceWithLocationEiPKcj+0x0) [0x5e5cde313fdd]
+ mongod(+0x81EACE) [0x5e5cde0bbace]
+ mongod(+0xBB3429) [0x5e5cde450429]
+ mongod(__wt_err+0xA5) [0x5e5cde0c60a8]
+ mongod(__wt_panic+0x38) [0x5e5cde0c6408]
+ mongod(+0x82ECB1) [0x5e5cde0cbcb1]
+ libpthread.so.0(+0x8609) [0x7e3fe7ea9609]
+ libc.so.6(clone+0x43) [0x7e3fe7dce353]
+-----  END BACKTRACE  -----
